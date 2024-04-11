@@ -1,0 +1,130 @@
+.container{
+   border: solid 1px; 
+   border-radius: 10px;
+   background-color: #7C58A5;
+}
+.body{
+    border: solid;
+    border-radius: 20px;
+    background-color: #FACFCC;
+    margin: 150px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+#button{
+    display: flex;
+    width: 50%;
+    border-radius: 20px;
+
+}
+#signin{
+    display: flex;
+    gap: 50px;
+}
+#signup{
+    border-radius: 10px;
+    width: 20%;
+    background-color:rgb(48, 42,56);
+    color: white;
+}
+.row{
+    display:flex;
+    gap:10%;
+    background-color: #FACFCC;
+    margin-left: 5%;
+    margin-right: 10%;
+    text-decoration:black;
+    
+   
+}
+.column{
+    display:block;
+    font-size: 40px;
+    color:black;
+}
+#search{
+    width: 30px;
+    height: 30px;
+}
+
+#image1{
+    width: 600px;
+    height: 550px;
+}
+.statistics{
+    display: flex;
+    border: solid 1px;
+    border-radius: 20px;
+    background-color: white;
+    height: 150px;
+    justify-content: space-around;
+}
+#features{
+    display: block;
+}
+@media all and(min-width:200px) and (max-width:1024px){
+    .container{
+   border: solid 1px; 
+   border-radius: 10px;
+   background-color: #7C58A5;
+}
+.body{
+    border: solid;
+    border-radius: 20px;
+    background-color: #FACFCC;
+    margin: 150px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+#button{
+    display: flex;
+    padding: px;
+    width: 25%;
+    border-radius: 20px;
+
+}
+#signin{
+    display: flex;
+    gap: 50px;
+}
+#signup{
+    border-radius: 10px;
+    width: 20%;
+    background-color:rgb(48, 42,56);
+    color: white;
+}
+.row{
+    display:flex;
+    gap:10%;
+    background-color: #FACFCC;
+    margin-left: 5%;
+    margin-right: 10%;
+    text-decoration:black;
+    
+   
+}
+.column{
+    display:block;
+    font-size: 40px;
+    color:black;
+}
+#image1{
+    width: 600px;
+    height: 550px;
+}
+.statistics{
+    display: flex;
+    border: solid 1px;
+    border-radius: 20px;
+    background-color: white;
+    height: 150px;
+    justify-content: space-around;
+}
+#features{
+    display: block;
+}
+}
